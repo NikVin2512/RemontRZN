@@ -1,0 +1,28 @@
+#service
+	background-color: $bg_grey
+.service
+	display: flex
+	flex-direction: column
+	align-items: center
+	&__view
+		display: flex
+		justify-content: space-beetwen
+		margin-top: 50px
+	&__item
+		display: flex
+		flex-direction: column
+		text-align: center
+		margin-right: 32px
+		color: $text-title
+		&:last-child
+			margin-right: 0
+	&__title
+		font-size: 18px
+		margin: 23px 0 19px 0
+		+heavy
+	&__subtitle
+		max-width: 382px
+		text-align: center
+		letter-spacing: 0.48px
+		line-height: 22px
+		+light
